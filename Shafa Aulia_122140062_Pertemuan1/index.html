@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas1 Prak Pemweb_Shafa_122140062</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 p-6">
+
+    <!-- Membuat judul di bagian awal laman yang berisikan data diri -->
+    <h1 class="text-3xl font-bold text-center mb-6">TUGAS 1 PRAKTIKUM PEMWEB</h1> 
+<h2 class="text-xl font-semibold text-center mb-6 text-gray-700">
+  <span class="text-lg text-black-600 italic">Shafa Aulia</span> - <span class="text-sm text-black-500 italic">122140062</span>
+</h2>
+
+    <!-- Soal 1: To-do List -->
+<div class="bg-white shadow-lg rounded-lg p-6 mb-8 max-w-3xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4 text-center">To-Do List</h2>
+    <input type="text" id="taskInput" class="border p-2 rounded w-full mb-4" placeholder="Add your list...">
+    <button onclick="addTask()" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 max-w-xs block mx-auto">Add</button>
+
+    <ul id="taskList" class="mt-4"></ul>
+</div>
+
+<!-- Soal 2 : Kalkulator Sederhana -->
+<div class="bg-white shadow-lg rounded-lg p-6 mb-8 max-w-3xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4 text-center">Kalkulator Sederhana</h2>
+    <div class="flex gap-4 mb-4">
+        <input type="number" id="angka1" class="border p-2 rounded flex-1" placeholder="Angka 1">
+        <input type="number" id="angka2" class="border p-2 rounded flex-1" placeholder="Angka 2">
+    </div>
+    <!-- Membuat tampilan button pada kalkulatorr -->
+    <div class="grid grid-cols-4 gap-4 mb-4">
+            <button id="btn-tambah" class="bg-[#E49393] text-white px-4 py-2 rounded hover:bg-[#E49393]">+</button>
+            <button id="btn-kurang" class="bg-[#BB6464] text-white px-4 py-2 rounded hover:bg-[#BB6464]">-</button>
+            <button id="btn-kali" class="bg-[#898AA6] text-white px-4 py-2 rounded hover:bg-[#C9BBCF]">×</button>
+            <button id="btn-bagi" class="bg-[#9A8194] text-white px-4 py-2 rounded hover:bg-[#9A8194]">÷</button>
+            <button id="btn-pangkat" class="bg-[#6B7AA1] text-white px-4 py-2 rounded hover:bg-[#6B7AA1]">^</button>
+            <button id="btn-akar" class="bg-[#4FBDBA] text-white px-4 py-2 rounded hover:bg-[#4FBDBA]">√</button>
+            <button id="btn-modulus" class="bg-[#32E0C4] text-white px-4 py-2 rounded hover:bg-[#32E0C4]">%</button>
+        </div>
+    <div id="hasil-kalkulator" class="font-semibold text-xl text-center"></div>
+</div>
+
+<!-- Soal 3 : Form Validasi -->
+<div class="bg-white shadow-lg rounded-lg p-6 max-w-3xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4 text-center">Form Validasi</h2>
+    <form id="formInput">
+        <div class="mb-4">
+            <label for="nama" class="block text-sm font-medium">Name:</label>
+            <input type="text" id="nama" class="border p-2 rounded w-full" placeholder="Input your name">
+        </div>
+        <div class="mb-4">
+            <label for="email" class="block text-sm font-medium">Email:</label>
+            <input type="email" id="email" class="border p-2 rounded w-full" placeholder="Input your email">
+        </div>
+        <div class="mb-4">
+            <label for="password" class="block text-sm font-medium">Password:</label>
+            <input type="password" id="password" class="border p-2 rounded w-full" placeholder="Input your password">
+        </div>
+        <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 w-full">Submit</button>
+    </form>
+    <div id="validasiHasil" class="mt-4 text-red-500"></div>
+</div>
+
+    <!-- menghubungkan dengan file javaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
