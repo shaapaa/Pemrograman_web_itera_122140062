@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tugas Praktikum 2_122140062_Shafa</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 style="grid-area: header;">Task and Assigments List</h1>
+
+    <!-- Form Tambah Tugas -->
+    <form id="task-form" style="grid-area: form;">
+      <input type="text" id="task-input" placeholder="Masukkan nama tugas" required />
+      <input type="date" id="task-date" required />
+      <button type="submit">Tambah Tugas</button>
+    </form>
+
+    <!-- Filter -->
+    <div class="filter" style="grid-area: filter;">
+      <label for="filter">Filter:</label>
+      <select id="filter">
+        <option value="all">Semua</option>
+        <option value="nearest">Deadline Terdekat</option>
+      </select>
+    </div>
+
+    <!-- Panel Kanan -->
+    <div class="right-panel" style="grid-area: right;">
+      <!-- Jam dan Tanggal -->
+      <div id="datetime">
+        <div id="clock"></div>
+        <div id="date"></div>
+      </div>
+
+      <!-- Daftar Tugas -->
+      <ul id="task-list"></ul>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
