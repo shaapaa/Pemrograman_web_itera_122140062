@@ -8,7 +8,7 @@ Aplikasi ini biasa untuk mencatat buku yang dimiliki, sedang dibaca, atau ingin 
 Selain itu user juga bisa memfilter, mencari, menambahkan, mengedit, dan menghapus data buku yang dimilikinya. 
 
 ## Instalisasi Library 
-![Install Screenshot](src\assets\screenshots\Instalisasi.png)
+![Install Screenshot](src/assets/screenshots/Instalisasi.png)
 
 ## Fitur
 
@@ -50,32 +50,32 @@ Validasi input form dilakukan untuk memastikan semua data diisi dengan benar seb
 
 ### Halaman Home
 gambar dibawah merupakan tampilan website yang dibuat yaitu Shafa's Mini Library. Pada website dapat dilakukan beberapa aktivitas diantaranya menambahkan, menghapus, dan melihat daftar buku yang diinputkan. Selain itu terdapat fitur filter buku, dan juga edit keterangan buku.
-![Home Screenshot](src\assets\screenshots\Home.png)
+![Home Screenshot](src/assets/screenshots/Home.png)
 
 ### List
 gambar dibawah merupakan tampilan jika user sudah menginputkan daftar buku yang dimilikinya.
-![List Screenshot](src\assets\screenshots\List.png) 
+![List Screenshot](src/assets/screenshots/List.png) 
 
 ### Error
 gambar dibawah merupakan tampilan error ketika user ingin menginputkan buku namun data yang diinputkan tidak lengkap.
-![Error Screenshot](src\assets\screenshots\Error.png)
+![Error Screenshot](src/assets/screenshots/Error.png)
 
 ### Book list Page
 gambar dibawah merupakan tampilan pada page daftar buku yang berisi kumpulan buku yang diinputkan user.
-![ListPage Screenshot](src\assets\screenshots\BookListPage.png)
+![ListPage Screenshot](src/assets/screenshots/BookListPage.png)
 
 ### Penggunaan FilterBook
 gambar dibawah merupakan implementasi dari fitur filter book berdasarkan semua buku yang diinput, buku yang dimiliki, buku yang sedang dibaca, dan buku yang akan dibeli. 
-![Semua Screenshot](src\assets\screenshots\List.png)
-![Beli Screenshot](src\assets\screenshots\FilterBeli.png)
-![Dibaca Screenshot](src\assets\screenshots\FilterDibaca.png)
+![Semua Screenshot](src/assets/screenshots/List.png)
+![Beli Screenshot](src/assets/screenshots/FilterBeli.png)
+![Dibaca Screenshot](src/assets/screenshots/FilterDibaca.png)
 
 ### Penggunaan Fitur Search
-![Fitur Search Screenshot](src\assets\screenshots\fitursearch.png)
+![Fitur Search Screenshot](src/assets/screenshots/fitursearch.png)
 
 ## Hasil Testing 
 berikut hasil testing 
-![Testing Screenshot](src\assets\screenshots\Testing.png)
+![Testing Screenshot](src/assets/screenshots/Testing.png)
 
 ## Instalasi
 
