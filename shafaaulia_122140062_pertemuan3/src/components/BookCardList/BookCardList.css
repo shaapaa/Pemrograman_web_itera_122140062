@@ -1,0 +1,31 @@
+.book-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .book-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .book-card h3 {
+    font-size: 1.1rem;
+    color: #5C7285;
+    margin-bottom: 0.5rem;
+  }
+  
+  .book-card p {
+    margin: 0.25rem 0;
+    color: #333;
+  }
+  

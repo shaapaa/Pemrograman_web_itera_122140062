@@ -1,0 +1,54 @@
+.book-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+  }
+  
+  .book-info {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .book-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .book-actions button {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.9rem;
+    background-color: var(--clr-1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .book-actions button:hover {
+    opacity: 0.9;
+  }
+  
+  .book-actions button:last-child {
+    background-color: var(--clr-2);
+  }
+  
+  .no-books {
+    font-style: italic;
+    color: #666;
+  }
+  
