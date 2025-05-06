@@ -9,7 +9,7 @@ Shafa's Management Perpus adalah aplikasi desktop sederhana yang dikembangkan de
 * **Tambah Item**: Menambahkan buku (`Book`) dan koran (`Newspaper`) ke perpustakaan.
 * **Daftar Item**: Menampilkan semua item yang tersedia dalam tabel interaktif.
 * **Pencarian**: Mencari item berdasarkan judul atau ID.
-   ```
+
 ## Penjelasan Kode
 
 ### 1. `LibraryItem` (Abstract Class)
