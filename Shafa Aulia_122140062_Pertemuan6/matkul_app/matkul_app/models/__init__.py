@@ -77,3 +77,4 @@ def includeme(config):
         'dbsession',
         reify=True
     )
+    config.include('matkul_app.routes')
