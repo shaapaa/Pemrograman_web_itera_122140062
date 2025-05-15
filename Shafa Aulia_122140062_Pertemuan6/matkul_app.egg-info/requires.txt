@@ -1,0 +1,5 @@
+pyramid
+sqlalchemy
+alembic
+zope.sqlalchemy
+waitress

@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: matkul_app
+Version: 0.1
+Requires-Dist: pyramid
+Requires-Dist: sqlalchemy
+Requires-Dist: alembic
+Requires-Dist: zope.sqlalchemy
+Requires-Dist: waitress
+Dynamic: requires-dist
